@@ -1,0 +1,101 @@
+/**
+ * Theme Name: Aktier
+ * Template:   minimalist-blogger-x
+ */
+
+@import url('../minimalist-blogger-x/style.css');
+
+/* custom css */
+body {
+    font-family: Oswald;
+}
+.recent-articles {
+   
+}
+.article {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 12px;
+}
+.article__column__left {
+    flex-basis: 108px;
+}
+.article__column__right {
+    flex-basis: 70%;
+    margin: 0;
+}
+.article-title {
+    display: flex;
+    margin: 0px;
+}
+.article-title a {
+    font-family: Satoshi;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19.5px;
+    padding: 2px 10px 2px 10px;
+    background-color: #68D2A132;
+    color: #056B3C;
+    text-decoration: none;
+}
+.article-content p{
+    margin: 10px 0 0 0;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 19.55px;
+    color: #282830;
+}
+.content-wrap {
+    display: flex;
+    padding: 0 25px 0 25px;
+    width: 1320px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.left-content {
+    flex-basis: 68.17%;
+    margin-right: 20px;
+}
+.right-content {
+    flex-basis: 28%;
+}
+.subtitle-container {
+    border-top: solid 2px #68D2A1;
+}
+.subtitle {
+    display: inline-block;
+    margin: 0 0 18px 0;
+    padding: 10px;
+    background-color: #68D2A1;
+    color: #282830;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20.7px;
+}
+.news-title {
+    color: #282830;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 43.7px;
+    margin: 0;
+}
+.news-content {
+    color: #28283090;
+    font-family: Satoshi;
+    font-size: 18px;
+    line-height: 23.4px;
+    margin: 14px 0 24px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .content-wrap {
+        flex-wrap: wrap;
+    }
+	.left-content {
+        flex-basis: 100%;
+        margin-right: 0px;
+    }
+    .right-content {
+        flex-basis: 100%;
+    }
+}
